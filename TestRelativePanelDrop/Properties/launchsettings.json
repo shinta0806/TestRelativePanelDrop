@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "TestRelativePanelDrop (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "TestRelativePanelDrop (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
