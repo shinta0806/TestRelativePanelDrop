@@ -10,6 +10,8 @@
 	<StackPanel Margin="20" >
 		<TextBlock Text="Drop a file in the box below." />
 		<TextBlock Text="{x:Bind ViewModel.Path, Mode=OneWay}" />
+
+		<!-- Works if Background is specified. Background="LightGreen" -->
 		<RelativePanel Width="300" Height="300" 
 					   AllowDrop="True" DragOver="{x:Bind ViewModel.DragOver}" Drop="{x:Bind ViewModel.Drop}" 
 					   BorderThickness="1" BorderBrush="Black" />
